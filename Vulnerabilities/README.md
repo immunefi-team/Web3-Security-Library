@@ -1,5 +1,6 @@
 
 # Vulnerabilies
+(WIP)
 
 This is the therory behind the vulnerabilities, if you are interested in learning the real world examples check: [BugFixReviews](../BugFixReviews/README.md). 
 
@@ -11,7 +12,7 @@ This is the therory behind the vulnerabilities, if you are interested in learnin
 - [Uninitialized](#uninitialized)
   - [- Contracts](#--contracts)
   - [- Proxies](#--proxies)
-- [Code injection via delegatecall [TODO]](#code-injection-via-delegatecall-todo)
+- [Code injection via delegatecall [WIP]](#code-injection-via-delegatecall-wip)
 - [Access Control](#access-control)
   - [- Unprotected functions](#--unprotected-functions)
   - [- Signature Verification](#--signature-verification)
@@ -23,7 +24,7 @@ This is the therory behind the vulnerabilities, if you are interested in learnin
 - [Unchecked call return value](#unchecked-call-return-value)
 - [Transaction reorganization (MEV)](#transaction-reorganization-mev)
 - [Bad Randomness](#bad-randomness)
-- [Resources](#resources)
+- [Resources:](#resources)
 
 # Logic
 
@@ -59,7 +60,7 @@ Resources: [Consensys](https://consensys.github.io/smart-contract-best-practices
 
 ## - Proxies
 
-# Code injection via delegatecall [TODO]
+# Code injection via delegatecall [WIP]
 First of all, you need to understand what is `delegatecall` this function is a variant of message call but  [SolidityDocs delegatecall](https://docs.soliditylang.org/en/v0.8.16/introduction-to-smart-contracts.html?highlight=delegatecall#delegatecall-callcode-and-**libraries**)
 
 # Access Control
