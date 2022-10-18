@@ -77,6 +77,7 @@ Check This Out
 - [Trail of Bits](https://www.youtube.com/watch?v=wT-AmR7wtI8&list=PLciHOL_J7Iwr-ql_jqZBZ4ShN6pcSNGdC)
 
 # PoC like a pro
+- [Immunefi PoC Guidelines and Rules](https://immunefisupport.zendesk.com/hc/en-us/articles/9946217628561-Proof-of-Concept-PoC-Guidelines-and-Rules)
 - [Building A PoC For The Uranium Heist](https://medium.com/immunefi/building-a-poc-for-the-uranium-heist-ec83fbd83e9f)
 - [A PoC of the Hundred Finance Heist](https://medium.com/immunefi/a-poc-of-the-hundred-finance-heist-4121f23a098)
 - [How to PoC your Bug Leads](https://medium.com/immunefi/how-to-poc-your-bug-leads-5ec76abdc1d8)
