@@ -24,6 +24,10 @@ Check This Out
 - [Paradigm CTF (2021)](https://github.com/paradigmxyz/paradigm-ctf-2021)
   
 - [Cipher Shastra](https://ciphershastra.com)
+
+- [Unhacked CTF](https://unhackedctf.substack.com/)
+
+- [Sherlock CTF](https://github.com/sherlock-protocol/sherlock-ctf-0x0)
   
 - [Vyper Punk](https://github.com/SupremacyTeam/VyperPunk)
   
@@ -75,6 +79,9 @@ Check This Out
 - [Smart Contract Programmer](https://www.youtube.com/watch?v=4Mm3BCyHtDY&list=PLO5VPQH6OWdWsCgXJT9UuzgbC8SPvTRi5)
 - [RSA Conference](https://www.youtube.com/watch?v=IOUnhCTw6tE&list=PLeUGLKUYzh_isf2z_YodAfUDVnUJ07vrM)
 - [Trail of Bits](https://www.youtube.com/watch?v=wT-AmR7wtI8&list=PLciHOL_J7Iwr-ql_jqZBZ4ShN6pcSNGdC)
+- [Devcon 2022 Security Track](https://www.youtube.com/playlist?list=PLaM7G4Llrb7zeG1z6u-cRFfphiECL-_FD)
+- [Smart Contract Security PLaylist by Gitcoin Media](https://www.youtube.com/playlist?list=PLvTrX8LNPbPnrt6UsbuK8kUvdWZQx2QAy)
+- [Auditing approach by Mudit Gupta](https://www.youtube.com/watch?v=LLiJK_VeAvQ&t=32s)
 
 # PoC like a pro
 - [Immunefi PoC Guidelines and Rules](https://immunefisupport.zendesk.com/hc/en-us/articles/9946217628561-Proof-of-Concept-PoC-Guidelines-and-Rules)
