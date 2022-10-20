@@ -1,13 +1,13 @@
 Check This Out
 ---------------
 
-- [CTFs to Enhance your Solidity Skills](#ctfs-to-enhance-your-solidity-skills)
-- [How to...](#how-to)
-- [Interviews](#interviews)
-- [Research Papers](#research-papers)
-- [People to Follow](#people-to-follow)
-- [Resources from YouTube](#resources-from-youtube)
-- [PoC like a pro](#poc-like-a-pro)
+1. [CTFs to Enhance your Solidity Skills](#ctfs-to-enhance-your-solidity-skills)
+2. [How to...](#how-to)
+3. [Interviews](#interviews)
+4. [Research Papers](#research-papers)
+5. [People to Follow](#people-to-follow)
+6. [Resources from YouTube](#resources-from-youtube)
+7. [PoC like a pro](#poc-like-a-pro)
   
 
 # CTFs to Enhance your Solidity Skills
@@ -84,3 +84,4 @@ Check This Out
 - [Elements of a good bug report by Joran Honig](https://typeshare.co/joranhonig/posts/elements-of-a-good-bug-report)
 - [Sample vulnerability Report by DanielVF](https://gist.github.com/DanielVF/66f459da88804d1fd917c47576c68523)
 - [Check this Foundry Tutorials](../Tools/README.md#foundry-solidity-evm)
+- [DeFiHackLabs - Example POC's made with Foundry](https://github.com/SunWeb3Sec/DeFiHackLabs)
