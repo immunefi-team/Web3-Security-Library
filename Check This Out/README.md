@@ -65,6 +65,7 @@ Check This Out
 - [Transmissions11](https://twitter.com/transmissions11)
 - [Serpent](https://twitter.com/Serpent)
 - [Adrian Hetman](https://twitter.com/adrianhetman)
+- [Dr. Mia von Steinkirch](https://github.com/F4DELEGATECALL)
 - [Secureum](https://twitter.com/TheSecureum)
 - [Christoph Michel](https://twitter.com/cmichelio)
 - [Joran Honig](https://twitter.com/joranhonig)
