@@ -1,32 +1,32 @@
 Check This Out
 ---------------
 
-1. [CTFs to Enhance your Solidity Skills](#ctfs-to-enhance-your-solidity-skills)
-2. [How to...](#how-to)
-3. [Interviews](#interviews)
-4. [Research Papers](#research-papers)
-5. [People to Follow](#people-to-follow)
-6. [Resources from YouTube](#resources-from-youtube)
-7. [PoC like a pro](#poc-like-a-pro)
-  
+- [CTFs to Enhance your Solidity Skills](#ctfs-to-enhance-your-solidity-skills)
+- [How to...](#how-to)
+- [Interviews](#interviews)
+- [Research Papers](#research-papers)
+- [People to Follow](#people-to-follow)
+- [Resources from YouTube](#resources-from-youtube)
+- [PoC like a pro](#poc-like-a-pro)
+
 
 # CTFs to Enhance your Solidity Skills
 - [Immunefi Community Challenges](https://github.com/immunefi-team/community-challenges)
-  
+
 - [Damn Vulnerable DeFi](https://damnvulnerabledefi.xyz)
-  
+
 - [Ethernaut](https://ethernaut.openzeppelin.com)
-  
+
 - [Capture the Ether](https://capturetheether.com)
-  
+
 - [Blockchain CTF](https://blockchain-ctf.securityinnovation.com)
-  
+
 - [Paradigm CTF (2021)](https://github.com/paradigmxyz/paradigm-ctf-2021)
-  
+
 - [Cipher Shastra](https://ciphershastra.com)
-  
+
 - [Vyper Punk](https://github.com/SupremacyTeam/VyperPunk)
-  
+
 
 # How to...
 
