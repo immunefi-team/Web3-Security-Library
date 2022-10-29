@@ -13,6 +13,7 @@ This is a collaborative repository that aims to contain all the information you 
 | Check This Out             | [Inspect](#check-this-out)
 | How to Add Resources       | [Inspect](#how-to-add-resources)
 
+![](./img/RepoContentDiagram.png)
 ## Blockchain Concepts
   - [Web3](Blockchain%20Concepts/README.md#web3)
   - [EVM](Blockchain%20Concepts/README.md#evm)

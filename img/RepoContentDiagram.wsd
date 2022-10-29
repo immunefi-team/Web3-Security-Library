@@ -1,0 +1,110 @@
+@startwbs RepoContentDiagram
+
+' This code is getting rendered by plantuml
+' Playground - https://planttext.com/
+
+' This is the header section which has the timestamp of the render
+header 
+%date()
+end header 
+
+/'
+Styling and diagram syntax can be found here 
+https://plantuml.com/wbs-diagram
+'/
+
+scale 2 
+
+' These are styles for the whole diagram
+skinparam {
+    BackgroundColor Black
+    Shadowing False
+}
+
+' These are styles targeting each box and connecting line
+<style>
+wbsDiagram {
+    Linecolor Magenta
+    BackgroundColor White
+    FontColor White
+    
+    node {
+        BackgroundColor Black
+        FontSize 12
+        FontColor FFF56D
+        FontNAme SansSerif
+        HorizontalAlignment center
+    }
+
+    arrow {
+        Linecolor 31E1F7
+    }
+}
+</style> 
+
+' The diagram is being generated with the code below
++ Web3 \nSecurity \nLibrary 
+
+++ Blockchain \nConcepts 
++++ Web3
++++ EVM
++++ Non EVM chains
++++ Types of \nBlockchain Consensus:
++++ Wallets
++++ Resources
+
+++ Bug Fix \nReviews
++++ 2022 
++++ 2021
+
+++ Smart \nContracts 
++++ Ethereum \nVirtual \nMachine
+++++ Solidity
+++++ Vyper
+++++ Huff
+
+++ Tools 
++++ Frameworks/ \nProgramming \nTools
+++++ Hardhat \n(JS) EVM
+++++ Truffle \n(JS) EVM
+++++ Brownie \n(Python) EVM
+++++ Foundry \n(Solidity) EVM
+++++ Substrate \nPolkadot
++++ Blockchain \nAnalysis
++++ Activity \nMonitoring
++++ Threat Intelligence & \nOn-chain Data:
++++ Vulnerability \nScanners & Others:
++++ Other \nTools
++++ Resources:
+
+++ Vulnerabilities 
+++- Logic
++++- Bad Arithmetics
++++- Integer underflow/overflow
++++- Checks
++++ Reentrancy
++++ Uninitialized
+++++ Contracts
+++++ Proxies
++++ Code injection \nvia delegatecall
+++- Access \nControl
++++- Unprotected \nfunctions
++++- Signature \nVerification
++++- Default \nVisibility
++++- Authentication \nwith tx.origin
++++- Wrong implementation \nof standards
++++ Flashloans
++++ Oracle \nmanipulation
++++ Unchecked call \nreturn value
++++ Transaction \nreorganization (MEV)
++++ Bad \nRandomness
++++ Check \nthis \nout 
+++++ CTFs to Enhance your Solidity Skills
+++++ How to...
+++++ Interviews
+++++ Research Papers
+++++ People to Follow
+++++ Resources from YouTube
+++++ PoC like a pro
+
+@endwbs
