@@ -31,6 +31,8 @@ Check This Out
   
 - [Vyper Punk](https://github.com/SupremacyTeam/VyperPunk)
 
+- [Ethereum Hacker](https://github.com/jamesbachini/EthereumHacker/)
+
 
 # How to...
 
