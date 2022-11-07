@@ -53,7 +53,7 @@ In other words, this is an issue of temporality where a send function can be cal
 
 In smart contracts, a function will make an external call, which if not done just correctly will allow an untrusted called contract to perform a re-entrancy attack on the original contract.
 
-Resources: [Consensys](https://consensys.github.io/smart-contract-best-practices/attacks/reentrancy/), [SecuRing](https://medium.com/securing/reentrancy-attack-in-smart-contracts-is-it-still-a-problem-50db3e2042ae)
+Resources: [Consensys](https://consensys.github.io/smart-contract-best-practices/attacks/reentrancy/), [SecuRing](https://medium.com/securing/reentrancy-attack-in-smart-contracts-is-it-still-a-problem-50db3e2042ae), [Historical Collection of Reentrancy Attacks](https://github.com/pcaversaccio/reentrancy-attacks)
 
 # Uninitialized
 ## - Contracts 
