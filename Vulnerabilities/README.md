@@ -2,7 +2,7 @@
 # Vulnerabilies
 (WIP)
 
-This is the therory behind the vulnerabilities, if you are interested in learning the real world examples check: [BugFixReviews](../BugFixReviews/README.md). 
+This is the therory behind the vulnerabilities, if you are interested in learning the real world examples check: [BugFix Reviews](../BugFixReviews/README.md). 
 
 - [Vulnerabilies](#vulnerabilies)
 - [Logic](#logic)
@@ -10,14 +10,14 @@ This is the therory behind the vulnerabilities, if you are interested in learnin
   - [- Integer underflow/overflow](#--integer-underflowoverflow)
 - [Re-entrancy](#re-entrancy)
 - [Uninitialized](#uninitialized)
-- [- Contracts](#--contracts)
+  - [- Contracts](#--contracts)
   - [- Proxies](#--proxies)
 - [Code injection via delegatecall [WIP]](#code-injection-via-delegatecall-wip)
 - [Access Control](#access-control)
-   - [- Unprotected functions](#--unprotected-functions)
-   - [- Signature Verification](#--signature-verification)
-   - [- Authentication with tx.origin](#--authentication-with-txorigin)
-   - [- Reusing msg.value](#--reusing-msgvalue)
+  - [- Unprotected functions](#--unprotected-functions)
+  - [- Signature Verification](#--signature-verification)
+  - [- Authentication with tx.origin](#--authentication-with-txorigin)
+  - [- Reusing msg.value](#--reusing-msgvalue)
 - [Wrong implementation of standards](#wrong-implementation-of-standards)
 - [Flashloans](#flashloans)
 - [Oracle manipulation](#oracle-manipulation)

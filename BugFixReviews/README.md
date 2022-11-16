@@ -1,12 +1,13 @@
-Bug fix Reviews
+Bugfix Reviews
 --------------------
 This are the real world cases, if you are interested in learning the theory about this vulnerabilities check: [Vulnerabilities](../Vulnerabilities/README.md)
 
 - [2022](#2022)
+  - [November 2022](#november-2022)
+    - [Hack Analysis: Cream Finance Oct 2021](#hack-analysis-cream-finance-oct-2021)
   - [September 2022](#september-2022)
     - [Aurora Improper Input Sanitization Bugfix Review](#aurora-improper-input-sanitization-bugfix-review)
     - [Aurora Withdrawal Logic Error Bugfix Review](#aurora-withdrawal-logic-error-bugfix-review)
-  - [August 2022](#august-2022)
   - [July 2022](#july-2022)
     - [Moonbeam Missing Call Check ](#moonbeam-missing-call-check-)
     - [Balancer DoS](#balancer-dos)
@@ -18,7 +19,6 @@ This are the real world cases, if you are interested in learning the theory abou
     - [Aurora Inflation Spend Bugfix Review: $6m Payout](#aurora-inflation-spend-bugfix-review-6m-payout)
   - [May 2022](#may-2022)
     - [Wormhole Uninitialized Proxy Bugfix Review](#wormhole-uninitialized-proxy-bugfix-review)
-  - [April 2022](#april-2022)
   - [March 2022](#march-2022)
     - [Redacted Cartel Custom Approval Logic Bugfix Review](#redacted-cartel-custom-approval-logic-bugfix-review)
     - [Optimism Infinite Money Duplication](#optimism-infinite-money-duplication)
@@ -72,6 +72,11 @@ This are the real world cases, if you are interested in learning the theory abou
 
 
 # 2022
+## November 2022
+### [Hack Analysis: Cream Finance Oct 2021](https://medium.com/immunefi/hack-analysis-cream-finance-oct-2021-fc222d913fc5)
+Analysis of Cream Finance exploit on Oct 2021, resulting in loss of $130m in available liquidity.
+
+- Vulnerability type: Oracle manipulation, Uncapped supply of token.
 
 ## September 2022
 

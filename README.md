@@ -5,6 +5,7 @@ This is a collaborative repository that aims to contain all the information you 
 
 |       Categorisation       | Link |
 | -------------------------- | --------
+| Starting Guides            | [Inspect](#starting-guides)
 | Blockchain Concepts        | [Inspect](#blockchain-concepts)         
 | Bug Fix Reviews            | [Inspect](#bug-fix-reviews) 
 | Smart Contracts            | [Inspect](#smart-contracts)
@@ -12,6 +13,10 @@ This is a collaborative repository that aims to contain all the information you 
 | Vulnerabilities            | [Inspect](#vulnerabilities)
 | Check This Out             | [Inspect](#check-this-out)
 | How to Add Resources       | [Inspect](#how-to-add-resources)
+
+## Starting Guides:
+ - [Hacking the Blockchain: Ethereum](https://medium.com/immunefi/hacking-the-blockchain-an-ultimate-guide-4f34b33c6e8b)
+
 
 ## Blockchain Concepts
   - [Web3](Blockchain%20Concepts/README.md#web3)
@@ -21,9 +26,10 @@ This is a collaborative repository that aims to contain all the information you 
   - [Wallets](Blockchain%20Concepts/README.md#wallets)
   - [Resources:](Blockchain%20Concepts/README.md#resources)
 
-## Bug fix Reviews
+## Bugfix Reviews
 
 - [2022](BugFixReviews/README.md#2022)
+    - [November 2022](BugFixReviews/README.md#november-2022)
     - [September 2022](BugFixReviews/README.md#september-2022)
     - [August 2022](BugFixReviews/README.md#august-2022)
     - [July 2022](BugFixReviews/README.md#july-2022)
@@ -106,3 +112,5 @@ This is a collaborative repository that aims to contain all the information you 
 
  ## How to add Resources?
   Please follow the structure of the file you are editing. Whenever possible add a description of the resource you want to share. Send a pull request adding in the comment your Twitter and Discord users to thank you for the contribution and receive XP in the Discord leveling system.
+  
+  Plagiarism: Word-for-word copying of portions of another's writing won't be allowed.
