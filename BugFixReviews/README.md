@@ -4,6 +4,7 @@ This are the real world cases, if you are interested in learning the theory abou
 
 - [2022](#2022)
   - [November 2022](#november-2022)
+    - [Hack Analysis: Saddle Finance, April 2022](#hack-analysis-saddle-finance-april-2022)
     - [Hack Analysis: Cream Finance Oct 2021](#hack-analysis-cream-finance-oct-2021)
   - [September 2022](#september-2022)
     - [Aurora Improper Input Sanitization Bugfix Review](#aurora-improper-input-sanitization-bugfix-review)
@@ -73,10 +74,17 @@ This are the real world cases, if you are interested in learning the theory abou
 
 # 2022
 ## November 2022
+
+### [Hack Analysis: Saddle Finance, April 2022](https://medium.com/immunefi/hack-analysis-saddle-finance-april-2022-f2bcb119f38)
+Price miscalculation when swapping a token for an LP token.
+
+- Vulnerability type: logic, price calculation.
+
 ### [Hack Analysis: Cream Finance Oct 2021](https://medium.com/immunefi/hack-analysis-cream-finance-oct-2021-fc222d913fc5)
 Analysis of Cream Finance exploit on Oct 2021, resulting in loss of $130m in available liquidity.
 
 - Vulnerability type: Oracle manipulation, Uncapped supply of token.
+
 
 ## September 2022
 
