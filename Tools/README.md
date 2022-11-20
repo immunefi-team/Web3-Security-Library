@@ -35,6 +35,8 @@ Tools
 
 - [How to use Foundry To PoC Bug Leads Part2](https://medium.com/immunefi/how-to-use-foundry-to-poc-bug-leads-part-2-b7b3807400df)
 
+## [Substrate](https://substrate.io/) Polkadot
+
 ## Visualization tools
 
 - [solgraph](https://github.com/raineorshine/solgraph)<br/>
@@ -43,8 +45,6 @@ Tools
   A command line tool that generates a human-readable report to list every function of a contract.
 - [Sūrya](https://github.com/ConsenSys/surya)<br/>
   It offers a variety of graphic outputs and details on the smart contracts' structure.
-
-## [Substrate](https://substrate.io/) Polkadot
 
 # Blockchain Analysis
 Blockchain network explorers.
