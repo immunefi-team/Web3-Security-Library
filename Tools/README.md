@@ -35,6 +35,15 @@ Tools
 
 - [How to use Foundry To PoC Bug Leads Part2](https://medium.com/immunefi/how-to-use-foundry-to-poc-bug-leads-part-2-b7b3807400df)
 
+## Visualization tools
+
+- [solgraph](https://github.com/raineorshine/solgraph)<br/>
+  Creates a DOT graph that shows the function control flow of a Solidity contract and points out possible security flaws.
+- [Solidity Function Profiler](https://github.com/EricR/sol-function-profiler)<br/>
+  A command line tool that generates a human-readable report to list every function of a contract.
+- [Sūrya](https://github.com/ConsenSys/surya)<br/>
+  It offers a variety of graphic outputs and details on the smart contracts' structure.
+
 ## [Substrate](https://substrate.io/) Polkadot
 
 # Blockchain Analysis
@@ -116,6 +125,10 @@ Solidity smart contract security verification plugin for VS Code.
 - [Scribble](https://github.com/ConsenSys/scribble)
 
 Property testing and runtime verification tool.
+
+- [Securify](https://github.com/eth-sri/securify2)
+
+Security scanner for smart contracts on Ethereum, supported by ChainSecurity and the Ethereum Foundation 
 
 # Other Tools
 - [SWC Registry](https://swcregistry.io/)
