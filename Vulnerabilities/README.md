@@ -24,6 +24,7 @@ This is the therory behind the vulnerabilities, if you are interested in learnin
 - [Unchecked call return value](#unchecked-call-return-value)
 - [Transaction reorganization (MEV)](#transaction-reorganization-mev)
 - [Bad Randomness](#bad-randomness)
+- [Blockchain Bridges](#blockchain-bridges)
 - [Resources:](#resources)
 
 # Logic
@@ -95,6 +96,11 @@ As an example, I'm going back to the spring of 2021 when a lot of projects decid
 # Transaction reorganization (MEV)
 
 # Bad Randomness
+
+# Blockchain Bridges:
+
+- [The Dark Side of DeFi Cross-chain Bridge Hacks](https://quantstamp.com/blog/the-dark-side-of-defi-cross-chain-bridge-hacks)
+- [SoK: Not Quite Water Under the Bridge: Review of Cross-Chain Bridge Hacks](https://arxiv.org/pdf/2210.16209.pdf)
 
 # Resources:
 - [Consensys Smart Contract Best Practices Attacks](https://consensys.github.io/smart-contract-best-practices/attacks/)
