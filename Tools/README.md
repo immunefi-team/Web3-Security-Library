@@ -99,7 +99,7 @@ Symbolic execution tool.
 
 - [Mythril](https://github.com/ConsenSys/mythril)
 
-ecurity analysis tool for EVM bytecode.
+Security analysis tool for EVM bytecode.
 
 - [MythX](https://mythx.io)
 
