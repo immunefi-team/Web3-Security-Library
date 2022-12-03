@@ -24,6 +24,7 @@ This is the therory behind the vulnerabilities, if you are interested in learnin
 - [Unchecked call return value](#unchecked-call-return-value)
 - [Transaction reorganization (MEV)](#transaction-reorganization-mev)
 - [Bad Randomness](#bad-randomness)
+- [Use of components with known vulnerabilities](#use-of-components-with-known-vulnerabilities)
 - [Blockchain Bridges](#blockchain-bridges)
 - [Research Papers](#research-papers)
 - [Resources:](#resources)
@@ -97,6 +98,11 @@ As an example, I'm going back to the spring of 2021 when a lot of projects decid
 # Transaction reorganization (MEV)
 
 # Bad Randomness
+
+# Use of components with known vulnerabilities
+- Smart contracts may have been created using an obsolete compiler with known flaws
+- Libraries with known vulnerabilities have been imported
+- Code reuse: for their apps, many programmers reuse code. To put it another way, if the copied code has flaws, so does the smart contract it was pasted into.
 
 # Blockchain Bridges:
 
