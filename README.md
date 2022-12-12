@@ -7,7 +7,7 @@ This is a collaborative repository that aims to contain all the information you 
 | -------------------------- | --------
 | Starting Guides            | [Inspect](#starting-guides)
 | Blockchain Concepts        | [Inspect](#blockchain-concepts)         
-| Bug Fix Reviews            | [Inspect](#bug-fix-reviews) 
+| Bug Fix Reviews            | [Inspect](#bugfix-reviews) 
 | Smart Contracts            | [Inspect](#smart-contracts)
 | Tools                      | [Inspect](#tools)
 | Vulnerabilities            | [Inspect](#vulnerabilities)
@@ -98,6 +98,7 @@ This is a collaborative repository that aims to contain all the information you 
   - [Unchecked call return value](Vulnerabilities/README.md#unchecked-call-return-value)
   - [Transaction reorganization (MEV)](Vulnerabilities/README.md#transaction-reorganization-mev)
   - [Bad Randomness](Vulnerabilities/README.md#bad-randomness)
+  - [Use of components with known vulnerabilities](Vulnerabilities/README.md#use-of-components-with-known-vulnerabilities)
  
  ## Check This Out:
  - [CTFs to Enhance your Solidity Skills](Check%20This%20Out/README.md#ctfs-to-enhance-your-solidity-skills)
