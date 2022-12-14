@@ -50,4 +50,5 @@ The biggest difference between this wallets is if they are connected to the inte
 
 
 # Resources:
-[Gemini Cryptopedia](https://www.gemini.com/cryptopedia/glossary)
+- [Ethereum glossary](https://ethereum.org/en/glossary/)
+- [Gemini Cryptopedia](https://www.gemini.com/cryptopedia/glossary)
