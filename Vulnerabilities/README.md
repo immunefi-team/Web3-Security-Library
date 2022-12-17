@@ -91,6 +91,12 @@ As an example, I'm going back to the spring of 2021 when a lot of projects decid
 
 # Flashloans
 
+When a borrower uses a platform's smart contract to obtain a loan without providing collateral, this is referred to as a "Flash loan."
+
+A flash loan attack happens when a hacker borrows a lot of assets that don’t require collateral, manipulates the price of a cryptocurrency asset on one exchange, and then sells it very rapidly on another.
+
+An example is C.R.E.A.M. Finance flash loan attack. To know more, read: "[C.R.E.A.M. Finance Post Mortem: Flash Loan Exploit Oct 27](https://medium.com/cream-finance/post-mortem-exploit-oct-27-507b12bb6f8e)" resulted in a loss of ~$130M USD.
+
 # Oracle manipulation
 
 # Unchecked call return value
