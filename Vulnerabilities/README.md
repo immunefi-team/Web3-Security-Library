@@ -99,7 +99,7 @@ As an example, I'm going back to the spring of 2021 when a lot of projects decid
 
 # Bad Randomness
 
-Weak Randomness arises when the attacker can predict the result of a random number. Depending on the circumstances, this may result in certain security risks.
+Bad Randomness arises when the attacker can predict the result of a random number. Depending on the circumstances, this may result in certain security risks.
 
 Currently, two techniques are frequently employed to obtain randomness: using **block variables** or **oracles**.
 
