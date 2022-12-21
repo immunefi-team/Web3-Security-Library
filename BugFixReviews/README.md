@@ -3,54 +3,72 @@ Bugfix Reviews
 This are the real world cases, if you are interested in learning the theory about this vulnerabilities check: [Vulnerabilities](../Vulnerabilities/README.md)
 
 - [2022](#2022)
+  - [December 2022](#december-2022)
+    - [88MPH Theft Of Unclaimed MPH Rewards Bugfix Review](#88mph-theft-of-unclaimed-mph-rewards-bugfix-review)
+   
   - [November 2022](#november-2022)
+    - [Mt Pelerin Double Transaction Bugfix Review](#mt-pelerin-double-transaction-bugfix-review)
     - [Hack Analysis: Saddle Finance, April 2022](#hack-analysis-saddle-finance-april-2022)
     - [Hack Analysis: Cream Finance Oct 2021](#hack-analysis-cream-finance-oct-2021)
+
   - [September 2022](#september-2022)
     - [Aurora Improper Input Sanitization Bugfix Review](#aurora-improper-input-sanitization-bugfix-review)
     - [Aurora Withdrawal Logic Error Bugfix Review](#aurora-withdrawal-logic-error-bugfix-review)
+
   - [July 2022](#july-2022)
     - [Moonbeam Missing Call Check ](#moonbeam-missing-call-check-)
     - [Balancer DoS](#balancer-dos)
     - [Two Novel Crypto Wallet Exploits, Explained](#two-novel-crypto-wallet-exploits-explained)
     - [Synthetix Logic Error Bugfix Review](#synthetix-logic-error-bugfix-review)
+
   - [June 2022](#june-2022)
     - [Port Finance Logic Error Bugfix Review](#port-finance-logic-error-bugfix-review)
     - [Sense Finance Access Control Issue Bugfix Review](#sense-finance-access-control-issue-bugfix-review)
     - [Aurora Inflation Spend Bugfix Review: $6m Payout](#aurora-inflation-spend-bugfix-review-6m-payout)
+
   - [May 2022](#may-2022)
     - [Wormhole Uninitialized Proxy Bugfix Review](#wormhole-uninitialized-proxy-bugfix-review)
+
   - [March 2022](#march-2022)
     - [Redacted Cartel Custom Approval Logic Bugfix Review](#redacted-cartel-custom-approval-logic-bugfix-review)
     - [Optimism Infinite Money Duplication](#optimism-infinite-money-duplication)
+
   - [February 2022](#february-2022)
     - [Polygon Consensus Bypass](#polygon-consensus-bypass)
     - [APWine Incorrect Check of Delegations](#apwine-incorrect-check-of-delegations)
     - [Notional Double Counting Free Collateral](#notional-double-counting-free-collateral)
+
   - [January 2022](#january-2022)
     - [Cronos Theft of Transactions Fees](#cronos-theft-of-transactions-fees)
+
 - [2021](#2021)
   - [December 2021](#december-2021)
     - [Bitswift Unlimited Mint](#bitswift-unlimited-mint)
     - [Polygon Lack of Balance Check](#polygon-lack-of-balance-check)
+
   - [November 2021](#november-2021)
     - [Enzyme Finance Price Oracle Manipulation](#enzyme-finance-price-oracle-manipulation)
     - [Harvest Finance Uninitialized Proxies](#harvest-finance-uninitialized-proxies)
+
   - [October 2021](#october-2021)
     - [Polygon Double-Spend](#polygon-double-spend)
     - [RocketPool and Lido Front-running](#rocketpool-and-lido-front-running)
+
   - [September 2021](#september-2021)
     - [Belt finance logic error](#belt-finance-logic-error)
     - [OpenZeppelin Bugfix Review](#openzeppelin-bugfix-review)
+
   - [August 2021](#august-2021)
     - [Tidal Finance Logic Error](#tidal-finance-logic-error)
     - [xDai Stake Arbitrary Call Method](#xdai-stake-arbitrary-call-method)
     - [Teller uninitialized proxy](#teller-uninitialized-proxy)
+
   - [July 2021](#july-2021)
     - [Alchemix access control](#alchemix-access-control)
     - [MCDex Insufficient Validation](#mcdex-insufficient-validation)
     - [PancakeSwap Logic Error](#pancakeswap-logic-error)
     - [Cream Finance](#cream-finance)
+
   - [June 2021](#june-2021)
     - [Pods Finance](#pods-finance)
     - [Mushrooms Finance Logic Error](#mushrooms-finance-logic-error)
@@ -58,63 +76,90 @@ This are the real world cases, if you are interested in learning the theory abou
     - [Zapper Arbitrary Call Data](#zapper-arbitrary-call-data)
     - [88mph Function Initialization](#88mph-function-initialization)
     - [PancakeSwap Content Injection](#pancakeswap-content-injection)
+
   - [May 2021](#may-2021)
     - [Bitswift Race Condition](#bitswift-race-condition)
     - [Charger Particles Griefing](#charger-particles-griefing)
     - [Mushrooms finance Theft of Yield](#mushrooms-finance-theft-of-yield)
     - [Fei Protocol Flashloan Vulnerability](#fei-protocol-flashloan-vulnerability)
     - [Sovryn loan vulnerability](#sovryn-loan-vulnerability)
+
   - [April 2021](#april-2021)
     - [Fei Protocol Vulnerability](#fei-protocol-vulnerability)
+
   - [March 2021](#march-2021)
     - [PancakeSwap lottery vulnerability](#pancakeswap-lottery-vulnerability)
+
   - [February 2021](#february-2021)
     - [ArmorFi postmortem](#armorfi-postmortem)
 
-
 # 2022
+
+## December 2022
+
+### [88MPH Theft Of Unclaimed MPH Rewards Bugfix Review](https://medium.com/immunefi/88mph-theft-of-unclaimed-mph-rewards-bugfix-review-1dec98b9956b)
+
+Allowed users to steal most of the 88MPH tokens generated from yield contract by depositing an asset and withdrawing the vested 88mph tokens immediately.
+
+- Vulnerability type: Theft of funds.
+
 ## November 2022
 
+### [Mt Pelerin Double Transaction Bugfix Review](https://medium.com/immunefi/mt-pelerin-double-transaction-bugfix-review-503838db3d70)
+
+The bug could have allowed users to drain contract funds.
+
+- Vulnerability type: Theft of funds.
+
 ### [Hack Analysis: Saddle Finance, April 2022](https://medium.com/immunefi/hack-analysis-saddle-finance-april-2022-f2bcb119f38)
+
 Price miscalculation when swapping a token for an LP token.
 
-- Vulnerability type: logic, price calculation.
+- Vulnerability type: Logic, price calculation.
 
 ### [Hack Analysis: Cream Finance Oct 2021](https://medium.com/immunefi/hack-analysis-cream-finance-oct-2021-fc222d913fc5)
+
 Analysis of Cream Finance exploit on Oct 2021, resulting in loss of $130m in available liquidity.
 
 - Vulnerability type: Oracle manipulation, Uncapped supply of token.
 
-
 ## September 2022
 
 ### [Aurora Improper Input Sanitization Bugfix Review](https://medium.com/immunefi/aurora-improper-input-sanitization-bugfix-review-a9376dac046f)
+
 Improper impot sanitazion that allowed a bad actor to steal funds using a worthless NEP-141.
+
 - Vulnerability type: Improper Input Sanitization
 
 ### [Aurora Withdrawal Logic Error Bugfix Review](https://medium.com/immunefi/aurora-withdrawal-logic-error-bugfix-review-c5b4e30a9160)
 We need Aurora to execute a burn function on NEAR and wait to withdraw the assets in Ethereum. How do we create a transaction looks like Aurora did it?
+
 - Vulnerability type: Logic, Bridge
 
 ## July 2022
 
 ### [Moonbeam Missing Call Check ](https://medium.com/immunefi/moonbeam-missing-call-check-bugfix-review-6279d609bdc5 )
+
 Missing call check vulnerability that allows direct theft of native assets.
+
 Vulnerability Type: Missing call check, theft of funds.
 
 - Vulnerability type: Missing Call Check
 
 ### [Balancer DoS](https://medium.com/immunefi/balancer-dos-bugfix-review-8a8ba5d971bf )
 Potentially exploitable Denial of Service scenario by emptying double entry-point ERC-20 tokens through Balancer’s flash loans.
+
 - Vulnerability type: DoS
 
 ### [Two Novel Crypto Wallet Exploits, Explained](https://medium.com/immunefi/two-novel-crypto-wallet-exploits-explained-98e74e50d13f )
 Unciphered unveiled three novel exploits impacting popular (and once-popular) crypto wallets Electrum Bitcoin Wallet, Trezor One, and Ethereumwallet.com.
+
 - Vulnerability type: hardware
 
 ### [Synthetix Logic Error Bugfix Review](https://medium.com/immunefi/synthetix-logic-error-bugfix-review-40da0ead5f4f )
 
 Logic vulnerability in the fee reclamation and rebate features in Synthetix.
+
 - Vulnerability type: logic
 
 ## June 2022
@@ -122,6 +167,7 @@ Logic vulnerability in the fee reclamation and rebate features in Synthetix.
 ### [Port Finance Logic Error Bugfix Review](https://medium.com/immunefi/port-finance-logic-error-bugfix-review-29767aced446 )
 
 A malicious user could have withdrawn all their obligation collaterals without paying off their full debt.
+
 - Vulnerability type: logic
 
 ### [Sense Finance Access Control Issue Bugfix Review](https://medium.com/immunefi/sense-finance-access-control-issue-bugfix-review-32e0c806b1a0 )
