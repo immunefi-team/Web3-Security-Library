@@ -6,6 +6,7 @@ Tools
   - [Brownie (Python) EVM](#brownie-python-evm)
   - [Foundry (Solidity) EVM](#foundry-solidity-evm)
   - [Substrate Polkadot](#substrate-polkadot)
+  - [Visualization tools](#visualization-tools)
 - [Blockchain Analysis](#blockchain-analysis)
 - [Activity Monitoring](#activity-monitoring)
 - [Threat Intelligence & On-chain Data:](#threat-intelligence--on-chain-data)
@@ -41,6 +42,8 @@ Tools
 
 - [solgraph](https://github.com/raineorshine/solgraph)<br/>
   Creates a DOT graph that shows the function control flow of a Solidity contract and points out possible security flaws.
+- [SOL2UML](https://github.com/naddison36/sol2uml)<br/>
+  Create an UML class diagram from a Solidity smart contract
 - [Solidity Function Profiler](https://github.com/EricR/sol-function-profiler)<br/>
   A command line tool that generates a human-readable report to list every function of a contract.
 - [Sūrya](https://github.com/ConsenSys/surya)<br/>
@@ -129,6 +132,10 @@ Property testing and runtime verification tool.
 - [Securify](https://github.com/eth-sri/securify2)
 
 Security scanner for smart contracts on Ethereum, supported by ChainSecurity and the Ethereum Foundation 
+
+- [ERC20 Verifier](https://erc20-verifier.openzeppelin.com/)
+
+ERC20 Verifier checks if an ERC20 contract conforms to standards
 
 # Other Tools
 - [SWC Registry](https://swcregistry.io/)
