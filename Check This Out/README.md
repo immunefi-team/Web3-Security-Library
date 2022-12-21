@@ -9,7 +9,6 @@ Check This Out
 - [Resources from YouTube](#resources-from-youtube)
 - [PoC like a pro](#poc-like-a-pro)
 
-
 # CTFs to Enhance your Solidity Skills
 - [Immunefi Community Challenges](https://github.com/immunefi-team/community-challenges)
 
@@ -36,6 +35,7 @@ Check This Out
 - [EtherHack](https://etherhack.positive.com/#/) 
 
 # Cryptographic CTFs
+
 - [CryptoHack](https://cryptohack.org/)
 
 # How to...
@@ -75,7 +75,6 @@ Check This Out
 - [Transmissions11](https://twitter.com/transmissions11)
 - [Serpent](https://twitter.com/Serpent)
 - [Adrian Hetman](https://twitter.com/adrianhetman)
-- [Dr. Mia von Steinkirch](https://github.com/F4DELEGATECALL)
 - [Secureum](https://twitter.com/TheSecureum)
 - [Christoph Michel](https://twitter.com/cmichelio)
 - [Joran Honig](https://twitter.com/joranhonig)
@@ -83,11 +82,12 @@ Check This Out
 
 # Resources from YouTube
 - [Console Cowboys](https://www.youtube.com/c/ConsoleCowboys/videos)
+- [Andy Li](https://www.youtube.com/@andyli)
 - [Smart Contract Programmer](https://www.youtube.com/watch?v=4Mm3BCyHtDY&list=PLO5VPQH6OWdWsCgXJT9UuzgbC8SPvTRi5)
 - [RSA Conference](https://www.youtube.com/watch?v=IOUnhCTw6tE&list=PLeUGLKUYzh_isf2z_YodAfUDVnUJ07vrM)
 - [Trail of Bits](https://www.youtube.com/watch?v=wT-AmR7wtI8&list=PLciHOL_J7Iwr-ql_jqZBZ4ShN6pcSNGdC)
 - [Devcon 2022 Security Track](https://www.youtube.com/playlist?list=PLaM7G4Llrb7zeG1z6u-cRFfphiECL-_FD)
-- [Smart Contract Security PLaylist by Gitcoin Media](https://www.youtube.com/playlist?list=PLvTrX8LNPbPnrt6UsbuK8kUvdWZQx2QAy)
+- [Smart Contract Security Playlist by Gitcoin Media](https://www.youtube.com/playlist?list=PLvTrX8LNPbPnrt6UsbuK8kUvdWZQx2QAy)
 - [Auditing approach by Mudit Gupta](https://www.youtube.com/watch?v=LLiJK_VeAvQ&t=32s)
 
 # PoC like a pro
