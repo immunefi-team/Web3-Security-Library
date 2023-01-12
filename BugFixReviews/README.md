@@ -2,74 +2,97 @@ Bugfix Reviews
 --------------------
 This are the real world cases, if you are interested in learning the theory about this vulnerabilities check: [Vulnerabilities](../Vulnerabilities/README.md)
 
+- [2023](#2023)
+  - [January 2023](#january-2023)
+  
+    - [Hack Analysis: Nomad Bridge, August 2022](#hack-analysis-nomad-bridge-august-2022)
+    - [Hack Analysis: Beanstalk Governance Attack, April 2022](#hack-analysis-beanstalk-governance-attack-april-2022)
+    - [Moonbeam, Astar, And Acala Library Truncation Bugfix Review - $1M Payout](#moonbeam-astar-and-acala-library-truncation-bugfix-review-$1m-payout)
+
 - [2022](#2022)
   - [December 2022](#december-2022)
+
     - [88MPH Theft Of Unclaimed MPH Rewards Bugfix Review](#88mph-theft-of-unclaimed-mph-rewards-bugfix-review)
    
   - [November 2022](#november-2022)
+
     - [Mt Pelerin Double Transaction Bugfix Review](#mt-pelerin-double-transaction-bugfix-review)
     - [Hack Analysis: Saddle Finance, April 2022](#hack-analysis-saddle-finance-april-2022)
     - [Hack Analysis: Cream Finance Oct 2021](#hack-analysis-cream-finance-oct-2021)
 
   - [September 2022](#september-2022)
+
     - [Aurora Improper Input Sanitization Bugfix Review](#aurora-improper-input-sanitization-bugfix-review)
     - [Aurora Withdrawal Logic Error Bugfix Review](#aurora-withdrawal-logic-error-bugfix-review)
 
   - [July 2022](#july-2022)
+
     - [Moonbeam Missing Call Check ](#moonbeam-missing-call-check-)
     - [Balancer DoS](#balancer-dos)
     - [Two Novel Crypto Wallet Exploits, Explained](#two-novel-crypto-wallet-exploits-explained)
     - [Synthetix Logic Error Bugfix Review](#synthetix-logic-error-bugfix-review)
 
   - [June 2022](#june-2022)
+
     - [Port Finance Logic Error Bugfix Review](#port-finance-logic-error-bugfix-review)
     - [Sense Finance Access Control Issue Bugfix Review](#sense-finance-access-control-issue-bugfix-review)
     - [Aurora Inflation Spend Bugfix Review: $6m Payout](#aurora-inflation-spend-bugfix-review-6m-payout)
 
   - [May 2022](#may-2022)
+
     - [Wormhole Uninitialized Proxy Bugfix Review](#wormhole-uninitialized-proxy-bugfix-review)
 
   - [March 2022](#march-2022)
+
     - [Redacted Cartel Custom Approval Logic Bugfix Review](#redacted-cartel-custom-approval-logic-bugfix-review)
     - [Optimism Infinite Money Duplication](#optimism-infinite-money-duplication)
 
   - [February 2022](#february-2022)
+
     - [Polygon Consensus Bypass](#polygon-consensus-bypass)
     - [APWine Incorrect Check of Delegations](#apwine-incorrect-check-of-delegations)
     - [Notional Double Counting Free Collateral](#notional-double-counting-free-collateral)
 
   - [January 2022](#january-2022)
+
     - [Cronos Theft of Transactions Fees](#cronos-theft-of-transactions-fees)
 
 - [2021](#2021)
   - [December 2021](#december-2021)
+
     - [Bitswift Unlimited Mint](#bitswift-unlimited-mint)
     - [Polygon Lack of Balance Check](#polygon-lack-of-balance-check)
 
   - [November 2021](#november-2021)
+
     - [Enzyme Finance Price Oracle Manipulation](#enzyme-finance-price-oracle-manipulation)
     - [Harvest Finance Uninitialized Proxies](#harvest-finance-uninitialized-proxies)
 
   - [October 2021](#october-2021)
+
     - [Polygon Double-Spend](#polygon-double-spend)
     - [RocketPool and Lido Front-running](#rocketpool-and-lido-front-running)
 
   - [September 2021](#september-2021)
+
     - [Belt finance logic error](#belt-finance-logic-error)
     - [OpenZeppelin Bugfix Review](#openzeppelin-bugfix-review)
 
   - [August 2021](#august-2021)
+
     - [Tidal Finance Logic Error](#tidal-finance-logic-error)
     - [xDai Stake Arbitrary Call Method](#xdai-stake-arbitrary-call-method)
     - [Teller uninitialized proxy](#teller-uninitialized-proxy)
 
   - [July 2021](#july-2021)
+
     - [Alchemix access control](#alchemix-access-control)
     - [MCDex Insufficient Validation](#mcdex-insufficient-validation)
     - [PancakeSwap Logic Error](#pancakeswap-logic-error)
     - [Cream Finance](#cream-finance)
 
   - [June 2021](#june-2021)
+
     - [Pods Finance](#pods-finance)
     - [Mushrooms Finance Logic Error](#mushrooms-finance-logic-error)
     - [SharedStake Insider Exploit](#sharedstake-insider-exploit)
@@ -78,6 +101,7 @@ This are the real world cases, if you are interested in learning the theory abou
     - [PancakeSwap Content Injection](#pancakeswap-content-injection)
 
   - [May 2021](#may-2021)
+
     - [Bitswift Race Condition](#bitswift-race-condition)
     - [Charger Particles Griefing](#charger-particles-griefing)
     - [Mushrooms finance Theft of Yield](#mushrooms-finance-theft-of-yield)
@@ -85,17 +109,48 @@ This are the real world cases, if you are interested in learning the theory abou
     - [Sovryn loan vulnerability](#sovryn-loan-vulnerability)
 
   - [April 2021](#april-2021)
+
     - [Fei Protocol Vulnerability](#fei-protocol-vulnerability)
 
   - [March 2021](#march-2021)
+
     - [PancakeSwap lottery vulnerability](#pancakeswap-lottery-vulnerability)
 
   - [February 2021](#february-2021)
+
     - [ArmorFi postmortem](#armorfi-postmortem)
+
+# 2023
+
+## January 2023
+
+### [Hack Analysis: Nomad Bridge, August 2022](https://medium.com/immunefi/hack-analysis-nomad-bridge-august-2022-5aa63d53814a)
+
+A routine upgrade on the implementation of one of Nomad’s proxy contracts marked a zero hash value as a trusted root, which allowed messages to get automatically proved. The hacker leveraged this vulnerability to spoof the bridge contract and trick it to unlock funds.
+
+- Vulnerability type: CommittedRoot set to ZERO.
+
+### [Hack Analysis: Beanstalk Governance Attack, April 2022](https://medium.com/immunefi/hack-analysis-beanstalk-governance-attack-april-2022-f42788fc821e)
+
+Beanstalk was the victim of a whopping $181M hack, which leveraged the lack of execution delay to push through a malicious governance proposal.
+
+- Vulnerability type: Lack of execution delay.
+
+### [Moonbeam, Astar, And Acala Library Truncation Bugfix Review — $1m Payout](https://medium.com/immunefi/moonbeam-astar-and-acala-library-truncation-bugfix-review-1m-payout-41a862877a5b)
+
+The bug, which was found within Frontier — the Substrate pallet that provides core Ethereum compatibility features within the Polkadot ecosystem–impacted Moonbeam, Astar Network, and Acala. The estimated potential damage from the vulnerability amounted to approximately $200m across the three projects, which was swiftly prevented
+
+- Vulnerability type: Minting new valid but depegged wrapped tokens.
 
 # 2022
 
 ## December 2022
+
+### [Hack Analysis: Omni Protocol, July 2022](https://medium.com/immunefi/hack-analysis-omni-protocol-july-2022-2d35091a0109)
+
+The underlying vulnerability, reentrancy, was exploited across two different functions of the same smart contract. Notably, these functions were lacking reentrancy locks and did not follow the checks-effects-interactions pattern. By leveraging the re-entrancy vulnerability on two different functions and using two attacker contracts, the hacker was able to borrow against the collateral and make the market forget about it.
+
+- Vulnerability type: Re-entrancy.
 
 ### [88MPH Theft Of Unclaimed MPH Rewards Bugfix Review](https://medium.com/immunefi/88mph-theft-of-unclaimed-mph-rewards-bugfix-review-1dec98b9956b)
 
@@ -194,11 +249,9 @@ Upgradeable proxy implementation self-destruct bug that helped prevent a potenti
 
 ### [Redacted Cartel Custom Approval Logic Bugfix Review](https://medium.com/immunefi/redacted-cartel-custom-approval-logic-bugfix-review-9b2d039ca2c5)
 
-
 The vulnerability would have allowed a malicious attacker to assign a user’s allowance to themselves, enabling the attacker to steal that user’s funds.
 
 - Vulnerability type: Logic and allowance.
-
   
 ### [Optimism Infinite Money Duplication](https://medium.com/immunefi/optimism-infinite-money-duplication-bugfix-review-daa6597146a0)
 
@@ -220,7 +273,7 @@ In the PT tokens, one condition wasn’t checked during the burn of those tokens
 
 - Vulnerability type: Logic error
 
- ### [Notional Double Counting Free Collateral](https://medium.com/immunefi/notional-double-counting-free-collateral-bugfix-review-28b634903934)
+### [Notional Double Counting Free Collateral](https://medium.com/immunefi/notional-double-counting-free-collateral-bugfix-review-28b634903934)
 
 Free collateral miscalculation and overpricing by a factor of two could allow a bad actor to drain almost all liquidity.
 
@@ -228,7 +281,7 @@ Free collateral miscalculation and overpricing by a factor of two could allow a 
 
 ## January 2022
 
- ### [Cronos Theft of Transactions Fees](https://medium.com/immunefi/cronos-theft-of-transactions-fees-bugfix-postmortem-b33f941b9570)
+### [Cronos Theft of Transactions Fees](https://medium.com/immunefi/cronos-theft-of-transactions-fees-bugfix-postmortem-b33f941b9570)
 
 The vulnerability that could allow stealing the fees of the current block in Cronos Blockchain
 
@@ -237,7 +290,7 @@ The vulnerability that could allow stealing the fees of the current block in Cro
 # 2021
 ## December 2021
 
- ### [Bitswift Unlimited Mint](https://medium.com/immunefi/bitswift-unlimited-mint-bugfix-postmortem-147a1e57dca9)
+### [Bitswift Unlimited Mint](https://medium.com/immunefi/bitswift-unlimited-mint-bugfix-postmortem-147a1e57dca9)
 
 A front-end critical vulnerability that could allow minting an infinite amount of tokens.
 
@@ -251,12 +304,11 @@ The vulnerability consisted of a lack of balance/allowance check in the `transfe
 
 ## November 2021
 
- ### [Enzyme Finance Price Oracle Manipulation](https://medium.com/immunefi/enzyme-finance-price-oracle-manipulation-bug-fix-postmortem-4e1f3d4201b5)
-
+### [Enzyme Finance Price Oracle Manipulation](https://medium.com/immunefi/enzyme-finance-price-oracle-manipulation-bug-fix-postmortem-4e1f3d4201b5)
 
 Vulnerability Type: flash loan/oracle price manipulation.
 
- ### [Harvest Finance Uninitialized Proxies](https://medium.com/immunefi/harvest-finance-uninitialized-proxies-bug-fix-postmortem-ea5c0f7af96b)
+### [Harvest Finance Uninitialized Proxies](https://medium.com/immunefi/harvest-finance-uninitialized-proxies-bug-fix-postmortem-ea5c0f7af96b)
 
 The Dedaub team filed a submission via Immunefi for uninitialized implementation contracts for Uniswap V3 vault proxies. The contracts in scope held a total of $6.4M in Uniswap V3 positions at the time of the submission.
 
@@ -264,13 +316,13 @@ The Dedaub team filed a submission via Immunefi for uninitialized implementation
 
 ## October 2021
 
- ### [Polygon Double-Spend](https://medium.com/immunefi/polygon-double-spend-bug-fix-postmortem-2m-bounty-5a1db09db7f1)
+### [Polygon Double-Spend](https://medium.com/immunefi/polygon-double-spend-bug-fix-postmortem-2m-bounty-5a1db09db7f1)
 
 The vulnerability allowed an attacker to exit their burn transaction from the bridge multiple times, up to 223 times. There were around ~$850M at risk. Having just $100k to launch the attack with would result in $22.3M in loss!
 
 - Vulnerability Type: Bridge manipulation.
 
- ### [RocketPool and Lido Front-running](https://medium.com/immunefi/rocketpool-lido-frontrunning-bug-fix-postmortem-e701f26d7971)
+### [RocketPool and Lido Front-running](https://medium.com/immunefi/rocketpool-lido-frontrunning-bug-fix-postmortem-e701f26d7971)
 
 The vulnerability allowed a malicious node operator included in Lido or RocketPool to steal user deposits frontrunning the deposit.
 
@@ -278,12 +330,11 @@ The vulnerability allowed a malicious node operator included in Lido or RocketPo
 
 ## September 2021
 
- ### [Belt finance logic error](https://medium.com/immunefi/belt-finance-logic-error-bug-fix-postmortem-39308a158291)
+### [Belt finance logic error](https://medium.com/immunefi/belt-finance-logic-error-bug-fix-postmortem-39308a158291)
 
 A logic error caused one of the contracts to think it had less money than it did, resulting in excess shares being issued for new deposits.
 
 - Vulnerability Type: Logic Error
-
 
 ### [OpenZeppelin Bugfix Review](https://medium.com/immunefi/openzeppelin-bug-fix-postmortem-66d8c89ed166)
 
