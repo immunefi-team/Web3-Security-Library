@@ -1,12 +1,10 @@
 Bugfix Reviews
 --------------------
-This are the real world cases, if you are interested in learning the theory about this vulnerabilities check: [Vulnerabilities](../Vulnerabilities/README.md)
+These are real world cases of bug fixes reported through Immunefi. To learn more about smart contract vulnerabilities theory check: [Vulnerabilities](../Vulnerabilities/README.md)
 
 - [2023](#2023)
   - [January 2023](#january-2023)
-  
-    - [Hack Analysis: Nomad Bridge, August 2022](#hack-analysis-nomad-bridge-august-2022)
-    - [Hack Analysis: Beanstalk Governance Attack, April 2022](#hack-analysis-beanstalk-governance-attack-april-2022)
+
     - [Moonbeam, Astar, And Acala Library Truncation Bugfix Review - $1M Payout](#moonbeam-astar-and-acala-library-truncation-bugfix-review-$1m-payout)
 
 - [2022](#2022)
@@ -17,8 +15,6 @@ This are the real world cases, if you are interested in learning the theory abou
   - [November 2022](#november-2022)
 
     - [Mt Pelerin Double Transaction Bugfix Review](#mt-pelerin-double-transaction-bugfix-review)
-    - [Hack Analysis: Saddle Finance, April 2022](#hack-analysis-saddle-finance-april-2022)
-    - [Hack Analysis: Cream Finance Oct 2021](#hack-analysis-cream-finance-oct-2021)
 
   - [September 2022](#september-2022)
 
@@ -124,18 +120,6 @@ This are the real world cases, if you are interested in learning the theory abou
 
 ## January 2023
 
-### [Hack Analysis: Nomad Bridge, August 2022](https://medium.com/immunefi/hack-analysis-nomad-bridge-august-2022-5aa63d53814a)
-
-A routine upgrade on the implementation of one of Nomad’s proxy contracts marked a zero hash value as a trusted root, which allowed messages to get automatically proved. The hacker leveraged this vulnerability to spoof the bridge contract and trick it to unlock funds.
-
-- Vulnerability type: CommittedRoot set to ZERO.
-
-### [Hack Analysis: Beanstalk Governance Attack, April 2022](https://medium.com/immunefi/hack-analysis-beanstalk-governance-attack-april-2022-f42788fc821e)
-
-Beanstalk was the victim of a whopping $181M hack, which leveraged the lack of execution delay to push through a malicious governance proposal.
-
-- Vulnerability type: Lack of execution delay.
-
 ### [Moonbeam, Astar, And Acala Library Truncation Bugfix Review — $1m Payout](https://medium.com/immunefi/moonbeam-astar-and-acala-library-truncation-bugfix-review-1m-payout-41a862877a5b)
 
 The bug, which was found within Frontier — the Substrate pallet that provides core Ethereum compatibility features within the Polkadot ecosystem–impacted Moonbeam, Astar Network, and Acala. The estimated potential damage from the vulnerability amounted to approximately $200m across the three projects, which was swiftly prevented
@@ -145,12 +129,6 @@ The bug, which was found within Frontier — the Substrate pallet that provides 
 # 2022
 
 ## December 2022
-
-### [Hack Analysis: Omni Protocol, July 2022](https://medium.com/immunefi/hack-analysis-omni-protocol-july-2022-2d35091a0109)
-
-The underlying vulnerability, reentrancy, was exploited across two different functions of the same smart contract. Notably, these functions were lacking reentrancy locks and did not follow the checks-effects-interactions pattern. By leveraging the re-entrancy vulnerability on two different functions and using two attacker contracts, the hacker was able to borrow against the collateral and make the market forget about it.
-
-- Vulnerability type: Re-entrancy.
 
 ### [88MPH Theft Of Unclaimed MPH Rewards Bugfix Review](https://medium.com/immunefi/88mph-theft-of-unclaimed-mph-rewards-bugfix-review-1dec98b9956b)
 
@@ -165,18 +143,6 @@ Allowed users to steal most of the 88MPH tokens generated from yield contract by
 The bug could have allowed users to drain contract funds.
 
 - Vulnerability type: Theft of funds.
-
-### [Hack Analysis: Saddle Finance, April 2022](https://medium.com/immunefi/hack-analysis-saddle-finance-april-2022-f2bcb119f38)
-
-Price miscalculation when swapping a token for an LP token.
-
-- Vulnerability type: Logic, price calculation.
-
-### [Hack Analysis: Cream Finance Oct 2021](https://medium.com/immunefi/hack-analysis-cream-finance-oct-2021-fc222d913fc5)
-
-Analysis of Cream Finance exploit on Oct 2021, resulting in loss of $130m in available liquidity.
-
-- Vulnerability type: Oracle manipulation, Uncapped supply of token.
 
 ## September 2022
 
