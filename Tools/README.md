@@ -50,13 +50,17 @@ Tools
   It offers a variety of graphic outputs and details on the smart contracts' structure.
 
 # Blockchain Analysis
-Blockchain network explorers.
+Blockchain network explorers:
 - [Ethereum](https://etherscan.io)
 - [BNB Chain](https://bscscan.com)
 - [Polygon](https://polygonscan.com)
 - [Solana](https://solscan.io)
 - [Fantom](https://fantomscan.com)
 - [BitQuery](https://explorer.bitquery.io/)
+Transaction viewers:
+- [samczsun's Tx viewer](https://tx.eth.samczsun.com/)
+- [Tenderly Dashboard](https://dashboard.tenderly.co/explorer)
+- [Phalcon explorer](https://phalcon.blocksec.com/)
 
 # Activity Monitoring
 - [Forta Protocol](https://forta.org)
@@ -95,6 +99,10 @@ Open data library for cryptocurrency assets.
 - [Cipher Trace](https://ciphertrace.com)
 
 A blockchain analytics and compliance platform.
+
+- [Codeslaw](https://www.codeslaw.app/)
+
+Smart search for verified smart contracts on the blockchain
 
 # Vulnerability Scanners & Others:
 - [Slither](https://github.com/crytic/slither)

@@ -97,6 +97,6 @@ Check This Out
 - [How to PoC your Bug Leads](https://medium.com/immunefi/how-to-poc-your-bug-leads-5ec76abdc1d8)
 - [Elements of a good bug report by Joran Honig](https://typeshare.co/joranhonig/posts/elements-of-a-good-bug-report)
 - [Sample vulnerability Report by DanielVF](https://gist.github.com/DanielVF/66f459da88804d1fd917c47576c68523)
-- [Check this Foundry Tutorials](../Tools/README.md#foundry-solidity-evm)
+- [Check these Foundry Tutorials](../Tools/README.md#foundry-solidity-evm)
 - [DeFiHackLabs - Example POC's made with Foundry](https://github.com/SunWeb3Sec/DeFiHackLabs)
 - [Coinspect Security - EVM Attacks PoCs ](https://github.com/coinspect/learn-evm-attacks/tree/master/test)

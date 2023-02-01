@@ -69,7 +69,7 @@ First of all, you need to understand what is `delegatecall` this function is a v
 # Access Control
 ## - Unprotected functions
 - Default Visibility
-  One of this common examples 
+  One of these common examples 
 ## - Signature Verification
 
 ## - Authentication with tx.origin
