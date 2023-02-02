@@ -33,5 +33,11 @@ Low-level programing language designed for developing highly optimized smart con
 
 - [Read the documentation](https://docs.huff.sh)
 
+- [Huff Project Template](https://github.com/huff-language/huff-project-template)
+
+- [Huffmate](https://github.com/pentagonxyz/huffmate) - a lib of modern, hyper-optimized and extensible Huff contracts with extensive testing and docs
+
+- [Foundry Huff](https://github.com/huff-language/foundry-huff) - Foundry lib for compiling, debugging and working with Huff contracts in Solidity
+
 # Resources:
 - [Smart Contract Sanctuary (tintinweb)](https://github.com/tintinweb/smart-contract-sanctuary)
