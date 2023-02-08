@@ -125,6 +125,14 @@ Security analysis tool for EVM bytecode.
 
 Smart contract security verification service.
 
+- [SolidityScan](https://solidityscan.com)
+
+Automated smart contract vulnerability scanning tool.
+
+- [Olympix](https://www.olympix.ai)
+
+Automated smart contract security scanner.
+
 - [ERC-20 Verifier](https://erc20-verifier.openzeppelin.com)
 
 Check whether an ERC-20 smart contract confirms to the standards.
