@@ -35,6 +35,12 @@ Check This Out
 
 - [EtherHack](https://etherhack.positive.com/#/) 
 
+- [QuillCTF](https://bit.ly/QuillCTF) 
+
+- [EKO Blockchain CTF](https://www.ctfprotocol.com/tracks/eko2022) 
+
+
+
 # Cryptographic CTFs
 
 - [CryptoHack](https://cryptohack.org/)
