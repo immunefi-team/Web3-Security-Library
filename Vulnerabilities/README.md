@@ -145,6 +145,7 @@ To know more about Bad Randomness, check this article from SlowMist: "[Intro to 
 
 - [SoK: Not Quite Water Under the Bridge: Review of Cross-Chain Bridge Hacks](https://arxiv.org/pdf/2210.16209.pdf)
 - [A Review on Cryptocurrencies Security](https://www.researchgate.net/publication/352343090_A_Review_on_Cryptocurrencies_Security)
+- [Security, Privacy, and Decentralization in Web3](https://arxiv.org/pdf/2109.06836.pdf)
 
 # Resources:
 
