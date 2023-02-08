@@ -137,12 +137,17 @@ To know more about Bad Randomness, check this article from SlowMist: "[Intro to 
 
 - [The Dark Side of DeFi Cross-chain Bridge Hacks](https://quantstamp.com/blog/the-dark-side-of-defi-cross-chain-bridge-hacks)
 
+# NFT Security:
+
+- [NFT Security Best Practices - Composable Security](https://composable-security.com/blog/nft-best-practices-build-safe/)
+
 # Research Papers:
 
 - [SoK: Not Quite Water Under the Bridge: Review of Cross-Chain Bridge Hacks](https://arxiv.org/pdf/2210.16209.pdf)
 - [A Review on Cryptocurrencies Security](https://www.researchgate.net/publication/352343090_A_Review_on_Cryptocurrencies_Security)
 
 # Resources:
+
 - [Consensys Smart Contract Best Practices Attacks](https://consensys.github.io/smart-contract-best-practices/attacks/)
 - [Consensys Smart Contract Best Practices Development Recommendations](https://consensys.github.io/smart-contract-best-practices/development-recommendations/)
 - [SWC Registry, Smart Contract Weakness Classification and Test Cases](https://swcregistry.io/)
