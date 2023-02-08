@@ -10,6 +10,7 @@ Check This Out
 - [PoC like a pro](#poc-like-a-pro)
 
 # CTFs to Enhance your Solidity Skills
+
 - [Immunefi Community Challenges](https://github.com/immunefi-team/community-challenges)
 
 - [Damn Vulnerable DeFi](https://damnvulnerabledefi.xyz)
@@ -81,7 +82,10 @@ Check This Out
 - [Rmi7.eth](https://twitter.com/__rmi__)
 
 # Resources from YouTube
+
+- [Immunefi](https://www.youtube.com/@immunefi/playlists)
 - [Console Cowboys](https://www.youtube.com/c/ConsoleCowboys/videos)
+- [RazzorSec](https://www.youtube.com/@RazzorSec/)
 - [Andy Li](https://www.youtube.com/@andyli)
 - [Smart Contract Programmer](https://www.youtube.com/watch?v=4Mm3BCyHtDY&list=PLO5VPQH6OWdWsCgXJT9UuzgbC8SPvTRi5)
 - [RSA Conference](https://www.youtube.com/watch?v=IOUnhCTw6tE&list=PLeUGLKUYzh_isf2z_YodAfUDVnUJ07vrM)
