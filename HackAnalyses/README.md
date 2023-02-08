@@ -52,3 +52,7 @@ Price miscalculation when swapping a token for an LP token.
 Analysis of Cream Finance exploit on Oct 2021, resulting in loss of $130m in available liquidity.
 
 - Vulnerability type: Oracle manipulation, Uncapped supply of token.
+
+## [Root Cause Hack Analyses by Sunsec](https://www.notion.so/0e85e02c5ed34df3855ea9f3ca40f53b)
+
+Hack analysis of 101 DeFi hack & exploit incidents.
