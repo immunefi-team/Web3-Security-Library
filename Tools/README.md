@@ -71,9 +71,13 @@ Detects threats and anomalies on DeFi, NFT, governance, bridges and other Web3 s
 
 Ethereum developer platform to develop and monitor applications.
 
-- [BlockSec Tools](https://tools.blocksec.com/tx)
+- [BlockSec Tools](https://phalcon.xyz/)
 
 Transactions analysis tool for Ethereum, Cronos and BNB Chain networks.
+
+- [cruise by supremacy](https://cruise.supremacy.team/)
+
+Transactions analysis tool for Choose Blockchain: Ethereum, BNB Chain, Polygon, Base Goerli, Fantom, Optimism, Arbitrum, Celo, Avalanche, Gnosis
 
 # Threat Intelligence & On-chain Data:
 - [Chainalysis](https://www.chainalysis.com)
