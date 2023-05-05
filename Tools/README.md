@@ -57,10 +57,13 @@ Blockchain network explorers:
 - [Solana](https://solscan.io)
 - [Fantom](https://fantomscan.com)
 - [BitQuery](https://explorer.bitquery.io/)
+- [Contract Library](https://library.dedaub.com/)
+
 Transaction viewers:
 - [samczsun's Tx viewer](https://tx.eth.samczsun.com/)
 - [Tenderly Dashboard](https://dashboard.tenderly.co/explorer)
 - [Phalcon explorer](https://phalcon.blocksec.com/)
+- [Contract Library's Tx viewer](https://library.dedaub.com/)
 
 # Activity Monitoring
 - [Forta Protocol](https://forta.org)
