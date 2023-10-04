@@ -88,7 +88,7 @@ These are real world cases of bug fixes reported through Immunefi. To learn more
 # 2023
 
 ## July 2023
-### [Yield Protocol Logic Error]()
+### [Yield Protocol Logic Error](https://medium.com/immunefi/yield-protocol-logic-error-bugfix-review-7b86741e6f50)
 
 The vulnerability involved a potential exploit that could allow an attacker to drain the base tokens from a pool by manipulating the token balance of a contract.
 
