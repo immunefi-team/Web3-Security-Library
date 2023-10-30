@@ -4,6 +4,9 @@ These are real world cases of bug fixes reported through Immunefi. To learn more
 
 - [2023](#2023)
   - [July 2023](#july-2023)
+    - [Sui Temporary Total Network Shutdown](#sui-temporary-total-network-shutdown)
+    - [Balancer Rounding Error](#balancer-rounding-error)
+  - [July 2023](#july-2023-1)
     - [Yield Protocol Logic Error](#yield-protocol-logic-error)
   - [June 2023](#june-2023)
     - [Silo Finance Logic Error](#silo-finance-logic-error)
@@ -86,6 +89,19 @@ These are real world cases of bug fixes reported through Immunefi. To learn more
     - [ArmorFi postmortem](#armorfi-postmortem)
 
 # 2023
+
+## July 2023
+### [Sui Temporary Total Network Shutdown](https://medium.com/immunefi/sui-temporary-total-network-shutdown-bugfix-review-c271d0319dcc)
+
+This vulnerability had the potential to cause a significant disruption by enabling an attacker to crash the validator nodes of the Sui blockchain, resulting in a temporary total network shutdown.
+
+- Vulnerability type: Temporaly network shutdown.
+  
+### [Balancer Rounding Error](https://medium.com/immunefi/balancer-rounding-error-bugfix-review-cbf69482ee3d)
+
+Critical vulnerability which consisted of a rounding error combined with a flashSwap. At the time of the submission al all velue in Boosted Pools could be drained.
+
+- Vulnerability type: Logic
 
 ## July 2023
 ### [Yield Protocol Logic Error](https://medium.com/immunefi/yield-protocol-logic-error-bugfix-review-7b86741e6f50)
