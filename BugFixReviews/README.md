@@ -3,10 +3,10 @@ Bugfix Reviews
 These are real world cases of bug fixes reported through Immunefi. To learn more about smart contract vulnerabilities theory check: [Vulnerabilities](../Vulnerabilities/README.md)
 
 - [2023](#2023)
-  - [July 2023](#july-2023)
+  - [October 2023](#october-2023)
     - [Sui Temporary Total Network Shutdown](#sui-temporary-total-network-shutdown)
     - [Balancer Rounding Error](#balancer-rounding-error)
-  - [July 2023](#july-2023-1)
+  - [July 2023](#july-2023)
     - [Yield Protocol Logic Error](#yield-protocol-logic-error)
   - [June 2023](#june-2023)
     - [Silo Finance Logic Error](#silo-finance-logic-error)
@@ -90,7 +90,7 @@ These are real world cases of bug fixes reported through Immunefi. To learn more
 
 # 2023
 
-## July 2023
+## October 2023
 ### [Sui Temporary Total Network Shutdown](https://medium.com/immunefi/sui-temporary-total-network-shutdown-bugfix-review-c271d0319dcc)
 
 This vulnerability had the potential to cause a significant disruption by enabling an attacker to crash the validator nodes of the Sui blockchain, resulting in a temporary total network shutdown.
