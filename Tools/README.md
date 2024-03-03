@@ -90,7 +90,9 @@ Blockchain analytics and crypto compliance platform.
 
 - [Nansen](https://nansen.ai)
 
-An on-chain data analytics paltform.
+- [Covalent](https://covalenthq.com/)
+
+An on-chain data analytics platform.
 
 - [Messari](https://messari.io)
 
@@ -107,11 +109,11 @@ Smart search for verified smart contracts on the blockchain
 # Vulnerability Scanners & Others:
 - [Slither](https://github.com/crytic/slither)
 
- Static analyser for Solidity 
+ Static analyser for Solidity
 
 - [Echidna](https://github.com/crytic/echidna)
 
-Ethereum smart contract fuzzer. 
+Ethereum smart contract fuzzer.
 
 - [Manticore](https://github.com/trailofbits/manticore)
 
@@ -147,7 +149,7 @@ Property testing and runtime verification tool.
 
 - [Securify](https://github.com/eth-sri/securify2)
 
-Security scanner for smart contracts on Ethereum, supported by ChainSecurity and the Ethereum Foundation 
+Security scanner for smart contracts on Ethereum, supported by ChainSecurity and the Ethereum Foundation
 
 - [ERC20 Verifier](https://erc20-verifier.openzeppelin.com/)
 
@@ -181,5 +183,5 @@ A guide to available tools, components, patterns and platforms for developing ap
 
 
 - [Nancentxyz Simple Security Toolkit](https://github.com/nascentxyz/simple-security-toolkit)
- 
+
 Collection of practical security-focused guides and checklists for smart contract development.
