@@ -149,10 +149,6 @@ Property testing and runtime verification tool.
 
 Security scanner for smart contracts on Ethereum, supported by ChainSecurity and the Ethereum Foundation 
 
-- [ERC20 Verifier](https://erc20-verifier.openzeppelin.com/)
-
-ERC20 Verifier checks if an ERC20 contract conforms to standards
-
 # Other Tools
 - [SWC Registry](https://swcregistry.io/)
 
