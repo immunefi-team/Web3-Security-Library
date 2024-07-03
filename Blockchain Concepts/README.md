@@ -43,7 +43,7 @@ Blockchain Concepts
 # Wallets
 - Custodial/Non-Custodial wallets
 
-Who holds the private key? In the custodial wallets a third party manages the private key, in the non-custodial ones is the user who holds the keys. Usually the centraliced exchanges are the ones who provide custodial wallets and you can get the non-custodial ones using Metamask or Trust Wallet for example.
+Who holds the private key? In the custodial wallets a third party manages the private key, in the non-custodial ones is the user who holds the keys. Usually the centralised exchanges are the ones who provide custodial wallets and you can get the non-custodial ones using Metamask or Trust Wallet for example.
 
 - Hot/Cold wallet:
 The biggest difference between these wallets is if they are connected to the internet (hot wallet) or not (cold wallet)
