@@ -95,7 +95,7 @@ These are real world cases of bug fixes reported through Immunefi. To learn more
 
 This vulnerability had the potential to cause a significant disruption by enabling an attacker to crash the validator nodes of the Sui blockchain, resulting in a temporary total network shutdown.
 
-- Vulnerability type: Temporaly network shutdown.
+- Vulnerability type: Temporary network shutdown.
   
 ### [Balancer Rounding Error](https://medium.com/immunefi/balancer-rounding-error-bugfix-review-cbf69482ee3d)
 
