@@ -75,7 +75,7 @@ In October 2022, the Binance Bridge fell victim to a hack, where a flaw in the I
 
 ## [Hack Analysis: Cream Finance, October 2021](https://medium.com/immunefi/hack-analysis-cream-finance-oct-2021-fc222d913fc5)
 
-Cream Finance experienced a significant exploit, resulting in a loss of $130 million in available liquidity. The attack involved manipulating a hybrid oracle and taking advantage of uncapped token supplying, allowing the attacker to drain the protocol of funds by borrowing against inflated collateral values.
+Cream Finance experienced a significant exploit, resulting in a loss of $130 million in available liquidity. The attack involved manipulating a hybrid oracle and taking advantage of an uncapped token supplying, allowing the attacker to drain the protocol of funds by borrowing against inflated collateral values.
 
 - Vulnerability type: Oracle manipulation, Uncapped supply of token.
 
