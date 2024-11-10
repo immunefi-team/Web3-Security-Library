@@ -1,5 +1,5 @@
 
-# Vulnerabilies
+# Vulnerabilities
 (WIP)
 
 This is the therory behind the vulnerabilities, if you are interested in learning the real world examples check: [BugFix Reviews](../BugFixReviews/README.md). 
