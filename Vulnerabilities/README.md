@@ -2,9 +2,9 @@
 # Vulnerabilities
 (WIP)
 
-This is the therory behind the vulnerabilities, if you are interested in learning the real world examples check: [BugFix Reviews](../BugFixReviews/README.md). 
+This is the theory behind the vulnerabilities, if you are interested in learning the real world examples check: [BugFix Reviews](../BugFixReviews/README.md). 
 
-- [Vulnerabilies](#vulnerabilies)
+- [Vulnerabilies](#vulnerabilities)
 - [Logic](#logic)
   - [- Bad Arithmetics](#--bad-arithmetics)
   - [- Integer underflow/overflow](#--integer-underflowoverflow)
