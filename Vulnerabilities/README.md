@@ -31,7 +31,7 @@ This is the theory behind the vulnerabilities, if you are interested in learning
 
 # Logic
 
-## - Bad Arithmetics
+## - Bad Arithmetic
 - Assumptions using external functions
 
 This can have a lot of variations, this case of calling an external function is very interesting: [ValueDeFi Incident](https://peckshield.medium.com/valuedefi-incident-incorrect-weighted-constant-product-invariant-calculation-1bbaa220a02b)
@@ -49,7 +49,7 @@ Since `version 0.8.0` Solidity automatically reverts on integer overflow and und
 
 Resources: [Consensys Insecure Arithmetic](https://consensys.github.io/smart-contract-best-practices/attacks/insecure-arithmetic/), [Solidity Docs Integers](https://docs.soliditylang.org/en/v0.8.11/types.html#integers)
 
-# Re-entrancy
+# Reentrancy
 Reentrancy is when a program’s execution can be interrupted and re-run from a particular point, a vulnerability made famous in the DAO hack. One way this vulnerability could manifest is if a bank’s wire system only checked an account’s balance at the beginning of the wire, as opposed to also checking the balance when the wire is about to be sent, in order to ensure sufficient funds. This could lead to a reentrancy attack that calls the send function multiple times to send more funds than are available in the account.
 
 In other words, this is an issue of temporality where a send function can be called before a check balance function is called.
@@ -58,7 +58,7 @@ In smart contracts, a function will make an external call, which if not done jus
 
 Resources: [Consensys](https://consensys.github.io/smart-contract-best-practices/attacks/reentrancy/), [SecuRing](https://medium.com/securing/reentrancy-attack-in-smart-contracts-is-it-still-a-problem-50db3e2042ae), [Historical Collection of Reentrancy Attacks](https://github.com/pcaversaccio/reentrancy-attacks)
 
-# Uninitialized
+# Uninitialized Proxy
 ## - Contracts 
 
 ## - Proxies
