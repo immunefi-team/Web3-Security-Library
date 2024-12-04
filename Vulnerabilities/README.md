@@ -13,14 +13,14 @@ This is the theory behind the vulnerabilities, if you are interested in learning
   - [- Contracts](#--contracts)
   - [- Proxies](#--proxies)
 - [Code injection via delegatecall [WIP]](#code-injection-via-delegatecall-wip)
-- [Access Control](#access-control)
+- [Weak Access Control](#weak-access-control)
   - [- Unprotected functions](#--unprotected-functions)
   - [- Signature Verification](#--signature-verification)
   - [- Authentication with tx.origin](#--authentication-with-txorigin)
   - [- Reusing msg.value](#--reusing-msgvalue)
 - [Wrong implementation of standards](#wrong-implementation-of-standards)
 - [Flashloans](#flashloans)
-- [Oracle manipulation](#oracle-manipulation)
+- [Oracle Manipulation](#oracle-manipulation)
 - [Unchecked call return value](#unchecked-call-return-value)
 - [Transaction reorganization (MEV)](#transaction-reorganization-mev)
 - [Bad Randomness](#bad-randomness)
@@ -66,7 +66,7 @@ Resources: [Consensys](https://consensys.github.io/smart-contract-best-practices
 # Code injection via delegatecall [WIP]
 First of all, you need to understand what is `delegatecall` this function is a variant of message call but  [SolidityDocs delegatecall](https://docs.soliditylang.org/en/v0.8.16/introduction-to-smart-contracts.html?highlight=delegatecall#delegatecall-callcode-and-**libraries**)
 
-# Access Control
+# Weak Access Control
 ## - Unprotected functions
 - Default Visibility
   One of these common examples 
@@ -97,7 +97,7 @@ A flash loan attack happens when a hacker borrows a lot of assets that don’t r
 
 An example is C.R.E.A.M. Finance flash loan attack. To know more, read: "[C.R.E.A.M. Finance Post Mortem: Flash Loan Exploit Oct 27](https://medium.com/cream-finance/post-mortem-exploit-oct-27-507b12bb6f8e)" resulted in a loss of ~$130M USD.
 
-# Oracle manipulation
+# Oracle Manipulation
 
 # Unchecked call return value
 
