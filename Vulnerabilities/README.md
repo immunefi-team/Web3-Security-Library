@@ -1,26 +1,26 @@
 
-# Vulnerabilies
+# Vulnerabilities
 (WIP)
 
-This is the therory behind the vulnerabilities, if you are interested in learning the real world examples check: [BugFix Reviews](../BugFixReviews/README.md). 
+This is the theory behind the vulnerabilities, if you are interested in learning the real world examples check: [BugFix Reviews](../BugFixReviews/README.md). 
 
-- [Vulnerabilies](#vulnerabilies)
+- [Vulnerabilities](#vulnerabilities)
 - [Logic](#logic)
-  - [- Bad Arithmetics](#--bad-arithmetics)
+  - [- Bad Arithmetic](#--bad-arithmetic)
   - [- Integer underflow/overflow](#--integer-underflowoverflow)
-- [Re-entrancy](#re-entrancy)
-- [Uninitialized](#uninitialized)
+- [Reentrancy](#reentrancy)
+- [Uninitialized Proxy](#uninitialized-proxy)
   - [- Contracts](#--contracts)
   - [- Proxies](#--proxies)
 - [Code injection via delegatecall [WIP]](#code-injection-via-delegatecall-wip)
-- [Access Control](#access-control)
+- [Weak Access Control](#weak-access-control)
   - [- Unprotected functions](#--unprotected-functions)
   - [- Signature Verification](#--signature-verification)
   - [- Authentication with tx.origin](#--authentication-with-txorigin)
   - [- Reusing msg.value](#--reusing-msgvalue)
 - [Wrong implementation of standards](#wrong-implementation-of-standards)
 - [Flashloans](#flashloans)
-- [Oracle manipulation](#oracle-manipulation)
+- [Oracle Manipulation](#oracle-manipulation)
 - [Unchecked call return value](#unchecked-call-return-value)
 - [Transaction reorganization (MEV)](#transaction-reorganization-mev)
 - [Bad Randomness](#bad-randomness)
@@ -31,12 +31,12 @@ This is the therory behind the vulnerabilities, if you are interested in learnin
 
 # Logic
 
-## - Bad Arithmetics
+## - Bad Arithmetic
 - Assumptions using external functions
 
 This can have a lot of variations, this case of calling an external function is very interesting: [ValueDeFi Incident](https://peckshield.medium.com/valuedefi-incident-incorrect-weighted-constant-product-invariant-calculation-1bbaa220a02b)
 
-- Decimal assuptions
+- Decimal assumptions
 
 For example, ERC20 decimals errors, the common value used for decimals is 18, but tokens like USDT and USDC have only 6.
 
@@ -49,7 +49,7 @@ Since `version 0.8.0` Solidity automatically reverts on integer overflow and und
 
 Resources: [Consensys Insecure Arithmetic](https://consensys.github.io/smart-contract-best-practices/attacks/insecure-arithmetic/), [Solidity Docs Integers](https://docs.soliditylang.org/en/v0.8.11/types.html#integers)
 
-# Re-entrancy
+# Reentrancy
 Reentrancy is when a program’s execution can be interrupted and re-run from a particular point, a vulnerability made famous in the DAO hack. One way this vulnerability could manifest is if a bank’s wire system only checked an account’s balance at the beginning of the wire, as opposed to also checking the balance when the wire is about to be sent, in order to ensure sufficient funds. This could lead to a reentrancy attack that calls the send function multiple times to send more funds than are available in the account.
 
 In other words, this is an issue of temporality where a send function can be called before a check balance function is called.
@@ -58,7 +58,7 @@ In smart contracts, a function will make an external call, which if not done jus
 
 Resources: [Consensys](https://consensys.github.io/smart-contract-best-practices/attacks/reentrancy/), [SecuRing](https://medium.com/securing/reentrancy-attack-in-smart-contracts-is-it-still-a-problem-50db3e2042ae), [Historical Collection of Reentrancy Attacks](https://github.com/pcaversaccio/reentrancy-attacks)
 
-# Uninitialized
+# Uninitialized Proxy
 ## - Contracts 
 
 ## - Proxies
@@ -66,7 +66,7 @@ Resources: [Consensys](https://consensys.github.io/smart-contract-best-practices
 # Code injection via delegatecall [WIP]
 First of all, you need to understand what is `delegatecall` this function is a variant of message call but  [SolidityDocs delegatecall](https://docs.soliditylang.org/en/v0.8.16/introduction-to-smart-contracts.html?highlight=delegatecall#delegatecall-callcode-and-**libraries**)
 
-# Access Control
+# Weak Access Control
 ## - Unprotected functions
 - Default Visibility
   One of these common examples 
@@ -97,7 +97,7 @@ A flash loan attack happens when a hacker borrows a lot of assets that don’t r
 
 An example is C.R.E.A.M. Finance flash loan attack. To know more, read: "[C.R.E.A.M. Finance Post Mortem: Flash Loan Exploit Oct 27](https://medium.com/cream-finance/post-mortem-exploit-oct-27-507b12bb6f8e)" resulted in a loss of ~$130M USD.
 
-# Oracle manipulation
+# Oracle Manipulation
 
 # Unchecked call return value
 
