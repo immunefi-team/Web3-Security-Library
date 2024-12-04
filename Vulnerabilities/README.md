@@ -4,7 +4,7 @@
 
 This is the theory behind the vulnerabilities, if you are interested in learning the real world examples check: [BugFix Reviews](../BugFixReviews/README.md). 
 
-- [Vulnerabilies](#vulnerabilities)
+- [Vulnerabilities](#vulnerabilities)
 - [Logic](#logic)
   - [- Bad Arithmetics](#--bad-arithmetics)
   - [- Integer underflow/overflow](#--integer-underflowoverflow)
