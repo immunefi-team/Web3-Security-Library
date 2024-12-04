@@ -6,10 +6,10 @@ This is the theory behind the vulnerabilities, if you are interested in learning
 
 - [Vulnerabilities](#vulnerabilities)
 - [Logic](#logic)
-  - [- Bad Arithmetics](#--bad-arithmetics)
+  - [- Bad Arithmetic](#--bad-arithmetic)
   - [- Integer underflow/overflow](#--integer-underflowoverflow)
-- [Re-entrancy](#re-entrancy)
-- [Uninitialized](#uninitialized)
+- [Reentrancy](#reentrancy)
+- [Uninitialized Proxy](#uninitialized-proxy)
   - [- Contracts](#--contracts)
   - [- Proxies](#--proxies)
 - [Code injection via delegatecall [WIP]](#code-injection-via-delegatecall-wip)
