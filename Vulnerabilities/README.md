@@ -36,7 +36,7 @@ This is the theory behind the vulnerabilities, if you are interested in learning
 
 This can have a lot of variations, this case of calling an external function is very interesting: [ValueDeFi Incident](https://peckshield.medium.com/valuedefi-incident-incorrect-weighted-constant-product-invariant-calculation-1bbaa220a02b)
 
-- Decimal assuptions
+- Decimal assumptions
 
 For example, ERC20 decimals errors, the common value used for decimals is 18, but tokens like USDT and USDC have only 6.
 
