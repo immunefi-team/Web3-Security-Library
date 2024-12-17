@@ -90,7 +90,7 @@ Blockchain analytics and crypto compliance platform.
 
 - [Nansen](https://nansen.ai)
 
-An on-chain data analytics paltform.
+An on-chain data analytics platform.
 
 - [Messari](https://messari.io)
 
