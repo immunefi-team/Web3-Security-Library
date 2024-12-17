@@ -173,7 +173,7 @@ The bug could have allowed users to drain contract funds.
 
 ### [Aurora Improper Input Sanitization Bugfix Review](https://medium.com/immunefi/aurora-improper-input-sanitization-bugfix-review-a9376dac046f)
 
-Improper impot sanitazion that allowed a bad actor to steal funds using a worthless NEP-141.
+Improper import sanitazion that allowed a bad actor to steal funds using a worthless NEP-141.
 
 - Vulnerability type: Improper Input Sanitization
 
