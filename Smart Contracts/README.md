@@ -29,7 +29,7 @@ https://www.youtube.com/watch?v=Y6o9kNqRV2Y
 
 ## Huff
 
-Low-level programing language designed for developing highly optimized smart contracts in the EVM.
+Low-level programming language designed for developing highly optimized smart contracts in the EVM.
 
 - [Read the documentation](https://docs.huff.sh)
 
