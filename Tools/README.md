@@ -100,6 +100,10 @@ Open data library for cryptocurrency assets.
 
 A blockchain analytics and compliance platform.
 
+- [FreezeRadar](https://freezeradar.com)
+
+Free wallet risk checker for freezeable assets (USDT, USDC, PAXG): issuer blacklist status, sanctions exposure, and live freeze/release activity.
+
 - [Codeslaw](https://www.codeslaw.app/)
 
 Smart search for verified smart contracts on the blockchain
