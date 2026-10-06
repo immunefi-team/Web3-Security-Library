@@ -104,6 +104,10 @@ A blockchain analytics and compliance platform.
 
 Smart search for verified smart contracts on the blockchain
 
+- [HostDeFi](https://hostdefi.com)
+
+Free multi-chain token risk scanner — instant on-chain safety grades for ERC-20 tokens across 7 EVM chains plus Solana (mint/freeze authorities, liquidity, holder concentration, honeypot checks), queryable over REST, MCP and x402 APIs.
+
 # Vulnerability Scanners & Others:
 - [Slither](https://github.com/crytic/slither)
 
