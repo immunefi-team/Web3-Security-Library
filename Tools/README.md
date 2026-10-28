@@ -104,6 +104,10 @@ A blockchain analytics and compliance platform.
 
 Smart search for verified smart contracts on the blockchain
 
+- [Iris](https://iriscan.app)
+
+Wallet analysis and fund tracing across Solana, EVM chains, Bitcoin and Tron, through mixers, bridges and instant swaps.
+
 # Vulnerability Scanners & Others:
 - [Slither](https://github.com/crytic/slither)
 
