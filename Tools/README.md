@@ -75,6 +75,10 @@ Ethereum developer platform to develop and monitor applications.
 
 Transactions analysis tool for Ethereum, Cronos and BNB Chain networks.
 
+- [SixStar for Teams](https://team.sixstarlab.com/for-projects/teams/)
+
+Security alerts for crypto teams. It watches your contracts, Safes, wallets, domains, code and team accounts, read only, and alerts your team in Telegram, Discord, Slack, PagerDuty or email when something changes. It never holds a key.
+
 # Threat Intelligence & On-chain Data:
 - [Chainalysis](https://www.chainalysis.com)
 
