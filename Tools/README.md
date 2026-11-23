@@ -101,6 +101,7 @@ Open data library for cryptocurrency assets.
 A blockchain analytics and compliance platform.
 
 - [Codeslaw](https://www.codeslaw.app/)
+- [Solana Rent & Rug Shield](https://rentandrugshield.com) - Sub-120ms 12-layer Solana token vulnerability scanner (Token-2022 PermanentDelegate, hidden transfer fees, LP burn verification, Slot-0 Jito Sybil clusters, and Layer 9 Inner CPI drainer simulation).
 
 Smart search for verified smart contracts on the blockchain
 
